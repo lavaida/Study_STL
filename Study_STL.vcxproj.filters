@@ -33,5 +33,14 @@
     <ClCompile Include="133p_STL 개요.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="168p_emplace_back%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="169p_size_type.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="171p_vector 컨테이너 크기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
