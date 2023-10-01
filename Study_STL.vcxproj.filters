@@ -42,5 +42,20 @@
     <ClCompile Include="171p_vector 컨테이너 크기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="182p_swap().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="186p_front%28%29, back%28%29, at%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="193p_상수 반복자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="197p_insert(), erase().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="217p_list 컨테이너.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
