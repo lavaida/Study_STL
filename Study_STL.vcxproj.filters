@@ -57,5 +57,17 @@
     <ClCompile Include="217p_list 컨테이너.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="227p_remove(), remove_if().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="228p_splice%28%29, reverse%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230p_unique%28%29, sort%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="240p_merge().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
