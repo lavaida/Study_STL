@@ -105,5 +105,11 @@
     <ClCompile Include="320p_lexicographical_compare().cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="323p_max%28%29, min%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="325p_max_element(), min_element().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
