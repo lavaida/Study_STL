@@ -111,5 +111,17 @@
     <ClCompile Include="325p_max_element(), min_element().cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="328p_mismatch().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="330p_search%28%29, search_n%28%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="336p_copy(), copy_backward().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="340p_fill(), fill_n().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

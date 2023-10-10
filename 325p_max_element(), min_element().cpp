@@ -49,23 +49,23 @@ int main(void)
 	std::cout << "#####################\n";
 
 	std::vector<int>::iterator iter;
-	iter = std::min_element(vec.begin(), vec.end());	// 값이 중복이라면 먼저 나온 원소의 반복자 반환.
+	iter = std::min_element(vec.begin(), vec.end());
 	std::cout << *iter << '\n';
 
 	if (iter == vec.begin())
 	{
-		std::cout << "vec.begin()\n";
+		std::cout << "vec.begin()\n";	// 값이 중복이라면 먼저 나온 원소의 반복자 반환.
 	}
 
 	std::cout << "#####################\n";
 
 	std::vector<int>::iterator iter02;
-	iter02 = std::max_element(vec.begin(), vec.end());	// 값이 중복이라면 먼저 나온 원소의 반복자 반환.
+	iter02 = std::max_element(vec.begin(), vec.end());
 	std::cout << *iter02 << '\n';
 
 	if (iter02 == vec.end() - 2)
 	{
-		std::cout << "vec.end() - 2\n";
+		std::cout << "vec.end() - 2\n";	// 값이 중복이라면 먼저 나온 원소의 반복자 반환.
 	}
 
 	std::cout << "#####################\n";
@@ -77,8 +77,16 @@ int main(void)
 	vec02.push_back(Data{ 2, 1 });
 
 	std::vector<Data>::iterator iter03;
-	iter03 = std::max_element(vec02.begin(), vec02.end(), Compare);
-	std::cout << iter03->Num01 << ", " << iter03->Num02 << '\n';
+	iter03 = std::max_element(vec02.begin(), vec02.end(), Compare);	// 기본적으로 동작하는 원리가 std::less
+	std::cout << iter03->Num01 << ", " << iter03->Num02 << '\n';	// [2, 1]
+
+	iter03 = std::min_element(vec02.begin(), vec02.end(), Compare);
+	std::cout << iter03->Num01 << ", " << iter03->Num02 << '\n';	// [1, 1] 가장 처음 원소.
+
+	if (iter03 == vec02.begin())
+	{
+		std::cout << "iter03 == vec03.begin()\n";	// 먼저 나온 원소의 반복자를 반환.
+	}
 
 	return 0;
 }
