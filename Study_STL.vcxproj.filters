@@ -132,5 +132,14 @@
     <ClCompile Include="347p_swap(), iter_swap().cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="350p_merge().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="353p_replace(), replace_if().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="355p_replace_copy(), replace_copy_if().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
