@@ -123,5 +123,14 @@
     <ClCompile Include="340p_fill(), fill_n().cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="342p_for_each().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="345p_generate(), generate_n().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="347p_swap(), iter_swap().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
